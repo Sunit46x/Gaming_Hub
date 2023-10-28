@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/utils.css">
+  <link rel="stylesheet" href="css/snack.css">
+  <link rel="stylesheet" href="css/logo_title.css">
+  <link rel="stylesheet" href="css/loader.css">
+  <link rel="stylesheet" href="css/cookie.css">
+  <link rel="stylesheet" href="css/social.css">
+  <link rel="stylesheet" href="css/goku.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/best.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8027026058295687"
+    crossorigin="anonymous"></script>
+
+
+  <title>Gaming_Hub</title>
+</head>
+
+<body>
+
+
+
+  <div id="loader">
+
+    <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+      <div class="wheel"></div>
+      <div class="hamster">
+        <div class="hamster__body">
+          <div class="hamster__head">
+            <div class="hamster__ear"></div>
+            <div class="hamster__eye"></div>
+            <div class="hamster__nose"></div>
+          </div>
+          <div class="hamster__limb hamster__limb--fr"></div>
+          <div class="hamster__limb hamster__limb--fl"></div>
+          <div class="hamster__limb hamster__limb--br"></div>
+          <div class="hamster__limb hamster__limb--bl"></div>
+          <div class="hamster__tail"></div>
+        </div>
+      </div>
+      <div class="spoke"></div>
+    </div>
+
+  </div>
+
+  <div id="content">
+
+    <!-- The actual snackbar -->
+    <div id="snackbar">
+      Downloading....
+
+    </div>
+
+    <!-- darkmode toggle switch -->
+    <div class="sun" onclick="toggleDarkMode()"></div>
+    <div class="moon" onclick="toggleDarkMode()"></div>
+
+
+    <div class="loader">
+      <span>Gaming_Hub</span>
+      <span>Gaming_Hub</span>
+    </div>
+
+    <br><br>
+
+    <!-- search bar and result container  -->
+    <div class="search-container">
+      <input type="text" autocomplete="off" name="text" class="input search-input"
+        placeholder="Search Here Your Favourite Games...." id="searchInput">
+
+      <button class="search-button" id="searchButton">Search</button>
+    </div>
+    <div id="results" align="center"></div>
+    <div style="background-color: white;" id="cook_card" class="cookie-card cookcard">
+      <span class="title">🍪 Cookie Notice</span>
+      <p class="description">We use cookies to ensure that we give you the best experience on our website. <a
+          href="https://portfolio-45.vercel.app">Read cookies policies</a>. </p>
+      <div class="actions">
+
+        <button onclick="accept()" class="accept" id="accept">
+          Accept
+        </button>
+      </div>
+    </div>
+    <div class="loader1">
+      <span>♛</span>
+      <span>TOP GAMES</span>
+      <span>♛</span>
+    </div>
+    <div class="scroll-containera">
+      <div class="containera">
+        <img src="images/apex.png" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 3/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 11Mins</p>
+          </div>
+          <div class="hash">
+            Apex Legends
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "Apex Legends" is a free-to-play battle royale</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            game by Respawn Entertainment, featuring </p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            team based combat in a futuristic universe.</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            Players choose from unique legends with</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            special abilities to survive and conquer.</p>
+        </dic>
+
+        <a href="https://www.ea.com/games/apex-legends">
+          <button class="custom-btn btn-1">Read More</button>
+        </a>
+      </div>
+      <div class="containera">
+        <img src="images/fortnight.png" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 5/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 41Mins</p>
+          </div>
+          <div class="hash">
+            fortnight
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "Fortnite" is a popular free-to-play battle royale</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            game by Epic Games, offering a unique mix of</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            shooting, building, and regular content updates </p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            with various in-game cosmetics.constantly</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            evolving battle royale experience</p>
+          <!-- "Fortnite" is a popular free-to-play battle royale game by Epic Games, offering a unique mix of shooting, building, and regular content updates with various in-game cosmetics. -->
+        </dic>
+        
+        <a href="https://www.nintendo.com/us/store/products/fortnite-switch/">
+          <button class="custom-btn btn-1">Read More</button>
+        </a>
+        
+      </div>
+      <div class="containera">
+        <img src="images/cod.png" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 5/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 45Mins</p>
+          </div>
+          <div class="hash">
+            Call of Duty
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "Call of Duty" is a long-running and successful</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            first-person shooter franchise, offering various </p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            game modes, including the popular battle royale</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            mode, Warzone, with realistic graphics and </p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            immersive gameplay.</p>
+        </dic>
+        <a href="https://www.callofduty.com/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+      </div>
+      <div class="containera">
+        <img src="images/valorant.webp" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 5/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 2Hours</p>
+          </div>
+          <div class="hash">
+            valorant
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "Valorant" is a tactical first-person shooter</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            developed by Riot Games, known for its</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            strategic gameplay, unique characters </p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            and a focus on precise aiming and team</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            coordination in competitive matches.</p>
+        </dic>
+        <a href="https://playvalorant.com/en-gb/">
+          <button class="custom-btn btn-1">Read More</button>
+        </a>
+      </div>
+      <div class="containera">
+        <img src="images/Untitled-design-2022-07-22T153132.013.webp" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 4/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 1Monthes</p>
+          </div>
+          <div class="hash">
+            PUBG
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "PUBG" (PlayerUnknown's Battlegrounds)</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            is a popular battle royale game, known for its</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            large open-world maps, realistic shooting</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            mechanics,and intense player-versus-player</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            battles.</p>
+        </dic>
+        <a href="https://www.pubg.com/en-na/main">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+      </div>
+      <div class="containera">
+        <img src="images/godof war.webp" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 4/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 25Days</p>
+          </div>
+          <div class="hash">
+            God of War
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "God of War" is an action-adventure video game</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            series by Santa Monica Studio. The games </p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            follow Kratos, a Spartan warrior, on his</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            quest for revenge and redemption,featuring</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            epic battles and intricate storytelling.</p>
+        </dic>
+        <a href="https://www.playstation.com/en-us/god-of-war/">
+        <button class="custom-btn btn-1">Read More</button>
+        </a>
+      </div>
+      <div class="containera">
+        <img src="images/9.webp" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 5/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 6Days</p>
+          </div>
+          <div class="hash">
+            XCOM2
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "XCOM: Enemy Unknown" and features tactical</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            combat against alien invaders in a dystopian</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            future.Players lead a team of soldiers to save</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            humanity through resource management and</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            strategic decision-making.</p>
+        </dic>
+        <a href="https://store.steampowered.com/app/268500/XCOM_2/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+      </div>
+      <div class="containera">
+        <img src="images/6.webp" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 3/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 11Mins</p>
+          </div>
+          <div class="hash">
+            # Jard Ebanks
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "Final Fantasy" is a long-running series</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            of role-playing video games (RPGs) developed</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            and published by Square Enix. Each game in</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            the series features a unique story,</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            characters,and gameplay mechanics</p>
+        </dic>
+        <a href="https://store.steampowered.com/app/268500/XCOM_2/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+      </div>
+      <div class="containera">
+        <img src="images/7.webp" alt="Image 1" height="225px" width="320px">
+
+        <div id="sub">
+
+          <div class="heart">
+            <p>❤ 5/5</p>
+          </div>
+          <div class="clock">
+            <p>🕖 41Mins</p>
+          </div>
+          <div class="hash">
+            SpiderMan
+          </div>
+        </div>
+        <dic id="sub2">
+          <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            "Marvel's Spider-Man" is a popular action</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            -adventure game for the PlayStation 4.</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            It lets players swing through New York</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+            City as Spider-Man, featuring engaging</p>
+          <p
+            style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+            a captivating story, and open-world exploration..</p>
+        </dic>
+        <a href="https://www.playstation.com/en-us/games/marvels-spider-man/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <div class="loader1">
+    <span>♛</span>
+    <span>MOST POPULAR</span>
+    <span>♛</span>
+  </div>
+  <div class="scroll-containera">
+    <div class="containera">
+      <img src="images/fifa.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 3/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 11Mins</p>
+        </div>
+        <div class="hash">
+          FIFA 2022
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "FIFA 22, a popular soccer video game,offers</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          realistic gameplay, updated player rosters,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          and improved graphics. It features various modes,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          including Career, Ultimate Team,& Football,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          providing an immersive football experience</p>
+      </dic>
+
+      <a href="https://www.ea.com/games/fifa/fifa-23">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/aaa.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 5/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 41Mins</p>
+        </div>
+        <div class="hash">
+          Angery Bird Rio
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "Angry Birds is a mobile game where players</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          use a slingshot to launch birds at structures,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          aiming to defeat pigs. It's known for its fun, </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          physics-based gameplay.Angry Birds," a popular</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          mobile game</p>
+        <!-- "Fortnite" is a popular free-to-play battle royale game by Epic Games, offering a unique mix of shooting, building, and regular content updates with various in-game cosmetics. -->
+      </dic>
+
+      <a href="https://www.angrybirds.com/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/gtaa.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 5/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 45Mins</p>
+        </div>
+        <div class="hash">
+          GTA 5
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          GTA 5 is a renowned open-world action</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          adventure game from Rockstar Games, known</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          for its crime-themed gameplay, heists, and</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          a vast, immersive fictional world to explore."</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          immersive gameplay.</p>
+      </dic>
+      <a href="https://www.rockstargames.com/gta-v">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/mario.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 5/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 2Hours</p>
+        </div>
+        <div class="hash">
+          Mario
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "The Game offers thrilling gameplay where,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          battling in epic robot battles with</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          customizable characters exploring a detailed,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          dynamic world inspired by the Transformers</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          franchise."</p>
+      </dic>
+      <a href="https://mario.nintendo.com/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/trasformwer.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 4/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 1Monthes</p>
+        </div>
+        <div class="hash">
+          Transformer
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "PUBG" (PlayerUnknown's Battlegrounds)</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          is a popular battle royale game, known for its</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          large open-world maps, realistic shooting</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          mechanics,and intense player-versus-player</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          battles.</p>
+      </dic>
+      <a href="">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/wwe.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 4/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 25Days</p>
+        </div>
+        <div class="hash">
+          WWE 2K15
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "WWE 2K15 is a wrestling video game that </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          offers realistic gameplay and an expanded </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          roster of WWE superstars, along with a new </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          MyCareer mode, enhancing the wrestling</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          experience for fans."</p>
+      </dic>
+      <a href="https://2k.com/en-US/game/wwe-2k15-standard-edition/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/MMM.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 5/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 6Days</p>
+        </div>
+        <div class="hash">
+          MINECRAFT
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "Minecraft is a sandbox video game known</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          for its open-world, block-building, and </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          survival gameplay.Players can explore,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          create, and survive in a variety of virtual</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          landscapes and modes."</p>
+      </dic>
+      <a href="https://www.minecraft.net/en-us">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/6.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 3/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 11Mins</p>
+        </div>
+        <div class="hash">
+          # Jard Ebanks
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "Final Fantasy" is a long-running series</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          of role-playing video games (RPGs) developed</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          and published by Square Enix. Each game in</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          the series features a unique story,</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          characters,and gameplay mechanics</p>
+      </dic>
+      <a href="https://store.steampowered.com/app/268500/XCOM_2/">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+    <div class="containera">
+      <img src="images/san.webp" alt="Image 1" height="225px" width="320px">
+
+      <div id="sub">
+
+        <div class="heart">
+          <p>❤ 5/5</p>
+        </div>
+        <div class="clock">
+          <p>🕖 41Mins</p>
+        </div>
+        <div class="hash">
+          GTA san andreas
+        </div>
+      </div>
+      <dic id="sub2">
+        <p style="height: 24px; width: 178px;font-size: 16px;text-align: center;"></p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          "Grand Theft Auto (GTA) is a highly popular, </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          open-world video game series by Rockstar Games.</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          featuring criminal adventures, action-packed </p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -11px;text-align: left;letter-spacing: normal;">
+          gameplay, and immersive fictional cities for</p>
+        <p
+          style="height: 24px; width: 178px;font-size: 14px;font-weight: bold;font-weight: bold;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin-top: -14px;text-align: left;letter-spacing: normal;">
+          players to explore.</p>
+      </dic>
+      <a href="https://www.rockstargames.com/games/sanandreas">
+        <button class="custom-btn btn-1">Read More</button>
+      </a>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <h2 style="text-align: center;font-size: larger;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-top: 20px;">
+    Made with ❤️ by Sunit Kapure.
+  </h2>
+  
+  
+</body>
+
+</html>
+
+
+
+<!-- javascript files here -->
+<script src="javascript/search.js"></script>
+<script src="javascript/darkmode.js"></script>
+<script src="javascript/snackbar.js"></script>
+<script src="javascript/loader.js"></script>
+<script src="javascript/cookie.js"></script>
+<script src="javascript/network.js"></script>
+<script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

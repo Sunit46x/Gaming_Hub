@@ -1,0 +1,88 @@
+.scroll-containera {
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 90%;
+    margin-left: 30px;
+  }
+  
+  .containera {
+    display: inline-block;
+    width: 320px;
+    height: 450px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .containera img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .heart
+  {
+    height: 20px;
+    width: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+  .clock
+  {
+    height: 11px;
+    width: 11px;
+    padding-left: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  #sub
+  {
+    display: flex;
+    margin-top: 5px;
+    height: 24px;
+    width: 320px;
+  }
+  .hash
+  {
+   font-weight: 800;
+    margin-left: 100px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    color: rgb(30, 0, 255);
+  }
+  .custom-btn {
+   width: 288px;
+   height: 40px;
+   color: #fff;
+   border-radius: 5px;
+   padding: 13px 25px 8px 25px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 500;
+   background: transparent;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   position: relative;
+   display: inline-block;
+   box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+   outline: none;
+   margin-top: -5px;
+  }
+  
+  .btn-1 {
+   background: rgb(6,14,131);
+   background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+   border: none;
+  }
+  
+  .btn-1:hover {
+   background: rgb(0,3,255);
+   background: linear-gradient(0deg, rgb(0, 17, 255) 0%, rgba(2,126,251,1) 100%);
+  }
+   
